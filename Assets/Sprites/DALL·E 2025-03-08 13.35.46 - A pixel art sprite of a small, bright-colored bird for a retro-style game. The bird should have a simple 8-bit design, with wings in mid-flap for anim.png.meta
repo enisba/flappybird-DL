@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 5eba8e67676bfbe47a0bcd547537878b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5673894645672026692
+    second: "DALL\xB7E 2025-03-08 13.35.46 - A pixel art sprite of a small, bright-colored
+      bird for a retro-style game. The bird should have a simple 8-bit design, with
+      wings in mid-flap for anim_0"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "DALL\xB7E 2025-03-08 13.35.46 - A pixel art sprite of a small, bright-colored
+        bird for a retro-style game. The bird should have a simple 8-bit design,
+        with wings in mid-flap for anim_0"
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 339
+        width: 651
+        height: 507
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -312.5, y: 83.5}
+        - {x: -291.5, y: -9.5}
+        - {x: -221.5, y: -97.5}
+        - {x: -135.5, y: -196.5}
+        - {x: 18.5, y: -249.5}
+        - {x: 116.5, y: -231.5}
+        - {x: 184.5, y: -184.5}
+        - {x: 208.5, y: -149.5}
+        - {x: 319.5, y: -82.5}
+        - {x: 316.5, y: 20.5}
+        - {x: 259.5, y: 33.5}
+        - {x: 244.5, y: 145.5}
+        - {x: 162.5, y: 198.5}
+        - {x: 69.5, y: 236.5}
+        - {x: -18.5, y: 210.5}
+        - {x: -58.5, y: 170.5}
+        - {x: -143.5, y: 219.5}
+        - {x: -207.5, y: 251.5}
+        - {x: -319.5, y: 166.5}
+      physicsShape:
+      - - {x: 325.5, y: 253.5}
+        - {x: -325.5, y: 253.5}
+        - {x: -325.5, y: -253.5}
+        - {x: 325.5, y: -253.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd5abf91e64241b0800000000000000
+      internalID: -5673894645672026692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: af4ef00be203fcb40b4c22639f162f10
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "DALL\xB7E 2025-03-08 13.35.46 - A pixel art sprite of a small, bright-colored bird for a retro-style game. The bird should have a simple 8-bit design, with wings in mid-flap for anim_0": -5673894645672026692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
