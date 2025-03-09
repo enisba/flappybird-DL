@@ -6,9 +6,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int score = 0;
-    public int highScore = 0; // En yüksek skor
+    public int highScore = 0; 
     public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI highScoreText; // High score'u göstermek için Text
+    public TextMeshProUGUI highScoreText;
     public GameObject gameOverPanel;
 
     void Awake()
@@ -21,14 +21,12 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // High Score’u PlayerPrefs'ten yükle
         highScore = PlayerPrefs.GetInt("HighScore", 0);
-
-        // UI’ı güncelle
-        if (highScoreText != null)
-        {
+        if(highScoreText != null)
             highScoreText.text = "High Score: " + highScore;
-        }
+
+        if(scoreText != null)
+            scoreText.text = "0";
 
         gameOverPanel.SetActive(false);
     }
@@ -36,36 +34,29 @@ public class GameManager : MonoBehaviour
     public void AddScore(int amount)
     {
         score += amount;
-        Debug.Log("Yeni Skor: " + score);
 
-        if (scoreText != null)
-        {
+        if(scoreText != null)
             scoreText.text = score.ToString();
-            Debug.Log("ScoreText Güncellendi: " + scoreText.text);
-        }
-        else
-        {
-            Debug.LogError("scoreText referansı NULL! UI Text bağlı mı?");
-        }
+    }
+
+    public void ResetScore()
+    {
+        score = 0;
+
+        if(scoreText != null)
+            scoreText.text = score.ToString();
     }
 
     public void GameOver()
     {
-        // Skor, high score’dan büyük mü kontrol et
         if (score > highScore)
         {
             highScore = score;
-            Debug.Log("Yeni High Score: " + highScore);
-
-            // PlayerPrefs’e kaydet
             PlayerPrefs.SetInt("HighScore", highScore);
-            PlayerPrefs.Save(); // Değişiklikleri diske yazar
+            PlayerPrefs.Save();
 
-            // High score metnini güncelle
-            if (highScoreText != null)
-            {
+            if(highScoreText != null)
                 highScoreText.text = "High Score: " + highScore;
-            }
         }
 
         gameOverPanel.SetActive(true);

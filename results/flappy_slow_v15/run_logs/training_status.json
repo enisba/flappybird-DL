@@ -1,0 +1,29 @@
+{
+    "FlappyBirdAgent": {
+        "checkpoints": [
+            {
+                "steps": 17256,
+                "file_path": "results\\flappy_slow_v15\\FlappyBirdAgent\\FlappyBirdAgent-17256.onnx",
+                "reward": -1.1447282855103655,
+                "creation_time": 1741531718.2778027,
+                "auxillary_file_paths": [
+                    "results\\flappy_slow_v15\\FlappyBirdAgent\\FlappyBirdAgent-17256.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 17256,
+            "file_path": "results\\flappy_slow_v15\\FlappyBirdAgent.onnx",
+            "reward": -1.1447282855103655,
+            "creation_time": 1741531718.2778027,
+            "auxillary_file_paths": [
+                "results\\flappy_slow_v15\\FlappyBirdAgent\\FlappyBirdAgent-17256.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.1+cpu"
+    }
+}

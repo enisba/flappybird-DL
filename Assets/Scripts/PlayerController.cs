@@ -23,10 +23,20 @@ public class PlayerController : MonoBehaviour
     }
 void OnCollisionEnter2D(Collision2D collision)
 {
-    FindObjectOfType<GameManager>().GameOver();
+    GameManager gm = FindFirstObjectByType<GameManager>();
+    if (gm != null)
+    {
+        gm.GameOver();
+    }
+    else
+    {
+        Debug.LogError("GameManager not found!");
+    }
+
     isDead = true;
     Time.timeScale = 0;
 }
+
 
 
     void RestartGame()

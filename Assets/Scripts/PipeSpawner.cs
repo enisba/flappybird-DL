@@ -3,26 +3,24 @@ using UnityEngine;
 public class PipeSpawner : MonoBehaviour
 {
     public GameObject pipePrefab;
-    public float spawnRate = 2f; // Boruların çıkış süresi (Daha sık boru oluşturmak için azaltıldı)
+    public float spawnRate = 2f; 
     public float minHeight = -3f;
     public float maxHeight = 3f;
-    public int initialPipes = 2; // Oyunun başında kaç boru spawn edilecek
-    public float offScreenX = 12f; // Boruların ekranın sağında spawn olacağı X konumu
-    public float spawnSpacing = 12f; // Boruların arasındaki mesafe azaltıldı
+    public int initialPipes = 2; 
+    public float offScreenX = 12f; 
+    public float spawnSpacing = 12f; 
 
-    private float nextSpawnX; // Bir sonraki borunun X konumunu takip eder
+    private float nextSpawnX; 
 
     void Start()
     {
         nextSpawnX = offScreenX;
 
-        // Oyunun başında ekranda hiç boru yok, ama ekranın sağında düzenli borular oluştur
         for (int i = 0; i < initialPipes; i++)
         {
             SpawnPipe(nextSpawnX);
         }
 
-        // Sonrasında belirli aralıklarla boru oluşturmaya devam et
         InvokeRepeating(nameof(SpawnNextPipe), spawnRate, spawnRate);
     }
 
