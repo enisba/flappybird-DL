@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     }
 void OnCollisionEnter2D(Collision2D collision)
 {
-    Debug.Log("Oyun Bitti! Çarpılan Obje: " + collision.gameObject.name); // Çarpılan objeyi göster
+    FindObjectOfType<GameManager>().GameOver();
     isDead = true;
     Time.timeScale = 0;
 }
@@ -34,4 +34,6 @@ void OnCollisionEnter2D(Collision2D collision)
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
         Time.timeScale = 1; 
     }
+
+    
 }
