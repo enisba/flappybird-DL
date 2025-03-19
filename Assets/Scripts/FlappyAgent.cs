@@ -21,7 +21,7 @@ public class FlappyAgent : Agent
 
         if (agentsManager == null)
         {
-            Debug.LogError("❌ AgentsManager bulunamadı! Sahneye 'AgentsManager' eklediğinden emin ol.");
+            Debug.LogError("AgentsManager not found!");
         }
     }
 
@@ -58,9 +58,9 @@ void OnTriggerEnter2D(Collider2D collision)
 {
     if (collision.CompareTag("ScoreTrigger"))
     {
-        score++; // **Ajanın skorunu artır**
-        AddReward(1f); // **AI için ödül**
-        Debug.Log("✅ Skor Arttı! Yeni skor: " + score);
+        score++; 
+        AddReward(1f);
+        Debug.Log("Score increasing " + score);
     }
 }
 

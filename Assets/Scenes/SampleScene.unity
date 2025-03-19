@@ -610,8 +610,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pipePrefab: {fileID: 5418054945417450371, guid: d87527ed425e8b1438da9825b781ac50, type: 3}
   spawnRate: 5
-  minHeight: -4
-  maxHeight: 3
+  minHeight: -2
+  maxHeight: 4
   initialPipes: 1
   offScreenX: 12
   spawnSpacing: 12
@@ -684,12 +684,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3974110330743828326, guid: d87527ed425e8b1438da9825b781ac50, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1825132
+      objectReference: {fileID: 0}
+    - target: {fileID: 3974110330743828326, guid: d87527ed425e8b1438da9825b781ac50, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.92
       objectReference: {fileID: 0}
     - target: {fileID: 3974110330743828326, guid: d87527ed425e8b1438da9825b781ac50, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.86
+      value: 5.2616
       objectReference: {fileID: 0}
     - target: {fileID: 4656324052515876437, guid: d87527ed425e8b1438da9825b781ac50, type: 3}
       propertyPath: moveSpeed
@@ -698,6 +702,14 @@ PrefabInstance:
     - target: {fileID: 5418054945417450371, guid: d87527ed425e8b1438da9825b781ac50, type: 3}
       propertyPath: m_Name
       value: PipePair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520590736323447939, guid: d87527ed425e8b1438da9825b781ac50, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2011616
+      objectReference: {fileID: 0}
+    - target: {fileID: 5520590736323447939, guid: d87527ed425e8b1438da9825b781ac50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.9758
       objectReference: {fileID: 0}
     - target: {fileID: 6058019671199571422, guid: d87527ed425e8b1438da9825b781ac50, type: 3}
       propertyPath: m_Size.x
@@ -937,7 +949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   birdPrefab: {fileID: 6933465}
-  initialBirdCount: 10
+  initialBirdCount: 1
 --- !u!4 &843790418
 Transform:
   m_ObjectHideFlags: 0

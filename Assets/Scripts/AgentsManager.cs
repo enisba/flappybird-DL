@@ -42,7 +42,7 @@ public class AgentsManager : MonoBehaviour
 
         if (birds.Count == 0)
         {
-            Debug.Log("🛑 Tüm ajanlar öldü, en iyi ajan belirlenecek...");
+            Debug.Log("All agents are dead! Restarting generation...");
             RestartGeneration();
         }
     }
@@ -54,11 +54,11 @@ public class AgentsManager : MonoBehaviour
             GameObject bestBird = birdScores.OrderByDescending(b => b.Value).First().Key;
             int bestScore = birdScores[bestBird];
 
-            Debug.Log("🏆 En iyi ajan seçildi! Skor: " + bestScore);
+            Debug.Log("best agent choose" + bestScore);
         }
         else
         {
-            Debug.Log("⚠️ Hiçbir ajan skor yapamadı!");
+            Debug.Log("Any agent not choose");
         }
 
         birds.Clear();
