@@ -24,28 +24,12 @@ The AI learns **optimal gameplay strategies** through **Reinforcement Learning (
 
 ---
 
-## **🛠 Technologies Used**
-- **Unity 2022.x** (2D Built-in Render Pipeline)
+## **Technologies Used**
+- **Unity 2022.6** (2D Built-in Render Pipeline)
 - **ML-Agents 0.28.0**
-- **Python 3.8**
 - **Proximal Policy Optimization (PPO)**
 - **Reinforcement Learning**
 - **Anaconda / Conda**
-
----
-
-## **Installation & Setup**
-
-### **1️ Required Software**
-Before running the project, make sure you have the following installed:
-- **Unity 2022.x or later**
-- **Python 3.8+**
-- **Anaconda** or **Miniconda**
-- **ML-Agents 0.28.0**
-
-### ML-Agents Installation
-Create a **Conda virtual environment** and install the required packages:
-
 ```sh
 conda create -n flappy_env python=3.8 -y
 conda activate flappy_env
