@@ -14,13 +14,11 @@ The AI learns **optimal gameplay strategies** through **Reinforcement Learning (
 - Used **TensorBoard** to track the AI’s learning process.
 
 ---
-
-## **Project Screenshots**
-### **Gameplay**
-<img src="assets/gameplay.png" width="600">
-
 ### **Training Process**
-<img src="assets/training_process.gif" width="600">
+
+https://github.com/user-attachments/assets/473ca4fe-6a45-4574-a44e-8b77ce010013
+
+
 
 ---
 
